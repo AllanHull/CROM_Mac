@@ -1,0 +1,23 @@
+//
+// NOTES
+//
+
+// 2023JUL21
+// modify EventDetailContentView view to Form > Section
+// modify StoreDetailContentView view to Form > Section
+// modify TrailDetailContentView view to Form > Section
+
+// 2023-JUN-26
+Modules: StoreDetailContentView
+Task: Change image from store-image to Store-PIC-S
+      Change Y offset to -50
+
+// 2023-JUN-20
+Newest version of CROM
+added launch screen
+
+// 2023-JUN-17
+added inital iWatch app using SwiftUI, replacining storyboards deprecated with iWatch 16.0
+
+// 2023-APR-28
+added WeatherKitManager

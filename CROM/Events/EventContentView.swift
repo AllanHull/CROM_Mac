@@ -1,16 +1,14 @@
 //
-//  ContentView.swift
-//  CROM Watch App
+//  EventContentView.swift
+//  CROM
 //
 //  Created by Allan Hull on 6/17/23.
 //
 
 import SwiftUI
 
-// define Events json URL
 let eventsEndpoint = "https://crom.mobi/events_crom_ui.json"
 
-// define Events record layout
 struct Event: Codable, Identifiable {
     public var id: Int
     public var name: String
@@ -42,7 +40,6 @@ struct Event: Codable, Identifiable {
 
 typealias Events = [Event]
 
-// class to download Events json file into events
 class EventDownloader: ObservableObject {
     @Published var events: Events = [Event]()
 
@@ -64,13 +61,11 @@ class EventDownloader: ObservableObject {
 }
 
 
-// display Events information
-struct ContentView: View {
+struct EventContentView: View {
     
     @ObservedObject var eventData: EventDownloader = EventDownloader()
     
     var body: some View {
-        
         NavigationView {
             List(self.eventData.events) { event in
                 NavigationLink(destination: EventDetailContentView(event: event)) {
@@ -82,14 +77,13 @@ struct ContentView: View {
                         .font(.system(size:20))
                 }
             }
-            .navigationBarTitle(Text("Events"))
-        }
-        
+        .navigationBarTitle(Text("Events"))
+      }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct EventContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        EventContentView()
     }
 }

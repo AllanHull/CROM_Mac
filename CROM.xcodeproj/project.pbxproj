@@ -16,6 +16,19 @@
 		C54A9DF92A3EC08C000AD59F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A9DF82A3EC08C000AD59F /* ContentView.swift */; };
 		C54A9DFB2A3EC08E000AD59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54A9DFA2A3EC08E000AD59F /* Assets.xcassets */; };
 		C54A9DFE2A3EC08E000AD59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54A9DFD2A3EC08E000AD59F /* Preview Assets.xcassets */; };
+		C54A9E0C2A3EC694000AD59F /* EventContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A9E0B2A3EC694000AD59F /* EventContentView.swift */; };
+		C54A9E0E2A3EC6DD000AD59F /* StoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A9E0D2A3EC6DD000AD59F /* StoreContentView.swift */; };
+		C54A9E102A3EC839000AD59F /* TrailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A9E0F2A3EC839000AD59F /* TrailContentView.swift */; };
+		C54A9E132A3F5E72000AD59F /* EventDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A9E122A3F5E72000AD59F /* EventDetailContentView.swift */; };
+		C59479AF2A427F7700D38AD2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59479AE2A427F7700D38AD2 /* Launch Screen.storyboard */; };
+		C5A212192A3FD05600FE8BAD /* EventDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A212182A3FD05600FE8BAD /* EventDetailContentView.swift */; };
+		C5A2121C2A3FD1BA00FE8BAD /* CircleSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2121B2A3FD1BA00FE8BAD /* CircleSwiftUI.swift */; };
+		C5A2121E2A3FD20D00FE8BAD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2121D2A3FD20D00FE8BAD /* MapView.swift */; };
+		C5A212202A3FD29400FE8BAD /* WeatherKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2121F2A3FD29400FE8BAD /* WeatherKitManager.swift */; };
+		C5A212222A3FD2E900FE8BAD /* modWeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A212212A3FD2E900FE8BAD /* modWeatherForecast.swift */; };
+		C5A212282A3FDAC500FE8BAD /* NOTES in Resources */ = {isa = PBXBuildFile; fileRef = C5A212272A3FDAC500FE8BAD /* NOTES */; };
+		C5A2122A2A3FDB8200FE8BAD /* TrailDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A212292A3FDB8200FE8BAD /* TrailDetailContentView.swift */; };
+		C5A2122C2A3FDDCA00FE8BAD /* StoreDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2122B2A3FDDCA00FE8BAD /* StoreDetailContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,20 @@
 		C54A9DF82A3EC08C000AD59F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C54A9DFA2A3EC08E000AD59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C54A9DFD2A3EC08E000AD59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C54A9E0B2A3EC694000AD59F /* EventContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContentView.swift; sourceTree = "<group>"; };
+		C54A9E0D2A3EC6DD000AD59F /* StoreContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreContentView.swift; sourceTree = "<group>"; };
+		C54A9E0F2A3EC839000AD59F /* TrailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailContentView.swift; sourceTree = "<group>"; };
+		C54A9E122A3F5E72000AD59F /* EventDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailContentView.swift; sourceTree = "<group>"; };
+		C59479AE2A427F7700D38AD2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C59479B02A428ED600D38AD2 /* CROM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CROM.entitlements; sourceTree = "<group>"; };
+		C5A212182A3FD05600FE8BAD /* EventDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailContentView.swift; sourceTree = "<group>"; };
+		C5A2121B2A3FD1BA00FE8BAD /* CircleSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwiftUI.swift; sourceTree = "<group>"; };
+		C5A2121D2A3FD20D00FE8BAD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C5A2121F2A3FD29400FE8BAD /* WeatherKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherKitManager.swift; sourceTree = "<group>"; };
+		C5A212212A3FD2E900FE8BAD /* modWeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modWeatherForecast.swift; sourceTree = "<group>"; };
+		C5A212272A3FDAC500FE8BAD /* NOTES */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTES; sourceTree = "<group>"; };
+		C5A212292A3FDB8200FE8BAD /* TrailDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetailContentView.swift; sourceTree = "<group>"; };
+		C5A2122B2A3FDDCA00FE8BAD /* StoreDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +121,17 @@
 		C54A9DE32A3EC08A000AD59F /* CROM */ = {
 			isa = PBXGroup;
 			children = (
+				C59479B02A428ED600D38AD2 /* CROM.entitlements */,
+				C5A212272A3FDAC500FE8BAD /* NOTES */,
+				C5A2121A2A3FD15F00FE8BAD /* SupportModules */,
+				C54A9E0A2A3EC649000AD59F /* Events */,
+				C54A9E092A3EC60C000AD59F /* Stores */,
+				C54A9E082A3EC5E1000AD59F /* Trails */,
 				C54A9DE42A3EC08A000AD59F /* CROMApp.swift */,
 				C54A9DE62A3EC08A000AD59F /* ContentView.swift */,
 				C54A9DE82A3EC08C000AD59F /* Assets.xcassets */,
 				C54A9DEA2A3EC08C000AD59F /* Preview Content */,
+				C59479AE2A427F7700D38AD2 /* Launch Screen.storyboard */,
 			);
 			path = CROM;
 			sourceTree = "<group>";
@@ -113,6 +147,7 @@
 		C54A9DF52A3EC08C000AD59F /* CROM Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				C54A9E112A3F5E17000AD59F /* Events */,
 				C54A9DF62A3EC08C000AD59F /* CROMApp.swift */,
 				C54A9DF82A3EC08C000AD59F /* ContentView.swift */,
 				C54A9DFA2A3EC08E000AD59F /* Assets.xcassets */,
@@ -127,6 +162,52 @@
 				C54A9DFD2A3EC08E000AD59F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C54A9E082A3EC5E1000AD59F /* Trails */ = {
+			isa = PBXGroup;
+			children = (
+				C54A9E0F2A3EC839000AD59F /* TrailContentView.swift */,
+				C5A212292A3FDB8200FE8BAD /* TrailDetailContentView.swift */,
+			);
+			path = Trails;
+			sourceTree = "<group>";
+		};
+		C54A9E092A3EC60C000AD59F /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				C54A9E0D2A3EC6DD000AD59F /* StoreContentView.swift */,
+				C5A2122B2A3FDDCA00FE8BAD /* StoreDetailContentView.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		C54A9E0A2A3EC649000AD59F /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				C54A9E0B2A3EC694000AD59F /* EventContentView.swift */,
+				C5A212182A3FD05600FE8BAD /* EventDetailContentView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		C54A9E112A3F5E17000AD59F /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				C54A9E122A3F5E72000AD59F /* EventDetailContentView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		C5A2121A2A3FD15F00FE8BAD /* SupportModules */ = {
+			isa = PBXGroup;
+			children = (
+				C5A2121B2A3FD1BA00FE8BAD /* CircleSwiftUI.swift */,
+				C5A2121D2A3FD20D00FE8BAD /* MapView.swift */,
+				C5A2121F2A3FD29400FE8BAD /* WeatherKitManager.swift */,
+				C5A212212A3FD2E900FE8BAD /* modWeatherForecast.swift */,
+			);
+			path = SupportModules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A212282A3FDAC500FE8BAD /* NOTES in Resources */,
 				C54A9DEC2A3EC08C000AD59F /* Preview Assets.xcassets in Resources */,
+				C59479AF2A427F7700D38AD2 /* Launch Screen.storyboard in Resources */,
 				C54A9DE92A3EC08C000AD59F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,8 +314,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54A9E0E2A3EC6DD000AD59F /* StoreContentView.swift in Sources */,
+				C5A2122C2A3FDDCA00FE8BAD /* StoreDetailContentView.swift in Sources */,
+				C5A2121E2A3FD20D00FE8BAD /* MapView.swift in Sources */,
 				C54A9DE72A3EC08A000AD59F /* ContentView.swift in Sources */,
+				C5A2122A2A3FDB8200FE8BAD /* TrailDetailContentView.swift in Sources */,
+				C5A2121C2A3FD1BA00FE8BAD /* CircleSwiftUI.swift in Sources */,
+				C5A212222A3FD2E900FE8BAD /* modWeatherForecast.swift in Sources */,
+				C54A9E102A3EC839000AD59F /* TrailContentView.swift in Sources */,
+				C5A212202A3FD29400FE8BAD /* WeatherKitManager.swift in Sources */,
 				C54A9DE52A3EC08A000AD59F /* CROMApp.swift in Sources */,
+				C5A212192A3FD05600FE8BAD /* EventDetailContentView.swift in Sources */,
+				C54A9E0C2A3EC694000AD59F /* EventContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54A9DF92A3EC08C000AD59F /* ContentView.swift in Sources */,
+				C54A9E132A3F5E72000AD59F /* EventDetailContentView.swift in Sources */,
 				C54A9DF72A3EC08C000AD59F /* CROMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +526,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CROM/CROM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_ASSET_PATHS = "\"CROM/Preview Content\"";
 				DEVELOPMENT_TEAM = A3R6PYDYTC;
 				ENABLE_PREVIEWS = YES;
@@ -442,6 +537,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -449,7 +545,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.APHrockies.CROM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -465,8 +561,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CROM/CROM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_ASSET_PATHS = "\"CROM/Preview Content\"";
 				DEVELOPMENT_TEAM = A3R6PYDYTC;
 				ENABLE_PREVIEWS = YES;
@@ -475,6 +572,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -482,7 +580,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.APHrockies.CROM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
