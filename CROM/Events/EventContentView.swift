@@ -74,7 +74,7 @@ struct EventContentView: View {
                         .foregroundColor(Color.red)
                         .bold()
                     Text(verbatim: event.name)
-                        .font(.system(size:20))
+                        .font(.system(size:18))
                 }
             }
         .navigationBarTitle(Text("Events"))

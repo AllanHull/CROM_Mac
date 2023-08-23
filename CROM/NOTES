@@ -2,6 +2,9 @@
 // NOTES
 //
 
+// 2023JUL22
+// adjust font sizes in DetailContentView (Event, Store and Trail)
+
 // 2023JUL21
 // modify EventDetailContentView view to Form > Section
 // modify StoreDetailContentView view to Form > Section

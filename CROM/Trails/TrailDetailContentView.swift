@@ -36,11 +36,10 @@ struct TrailDetailContentView: View {
                 Section(header: Text("Trail Information"))
                 {
                     Text(verbatim: "Type: " + trail.type)
-                    Text(verbatim: "Lenght: " + trail.length)
-                        .font(.subheadline)
+                    Text(verbatim: "Length: " + trail.length)
                     Text(verbatim: "Level: " + trail.level)
-                        .font(.subheadline)
                 }
+                .font(.subheadline)
                               
                 
             } // END: Form()

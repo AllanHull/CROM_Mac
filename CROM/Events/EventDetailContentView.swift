@@ -43,13 +43,16 @@ struct EventDetailContentView: View {
                             Text("Event Date")
                             Text(verbatim: event.date)
                         }
+                        .font(.subheadline)
                         
                         Spacer()
                         
                         // Weather
                         VStack {
                             Text("Current Weather")
+                                .font(.subheadline)
                             Text("Condition  Temp")
+                                .font(.subheadline)
                                                 
                             // Weather Info
                             Label(weatherKitManager.temp.prefix(2), systemImage: weatherKitManager.symbol)

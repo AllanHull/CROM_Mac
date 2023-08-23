@@ -36,7 +36,7 @@ struct StoreDetailContentView: View {
                 Section(header: Text("Contact Information"))
                 {
                     Text(verbatim: "Phone: " + store.phone)
-                      .font(.title)
+                      .font(.subheadline)
                     Text(verbatim: "Email: " + store.email)
                       .font(.subheadline)
                 }
